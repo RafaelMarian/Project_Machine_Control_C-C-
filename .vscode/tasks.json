@@ -8,6 +8,8 @@
             "args": [
                 "src/main.cpp",
                 "src/TriFazicSource.cpp",
+                "src/Rectifier.cpp",
+                "src/ADC.cpp",
                 "-Iinclude",
                 "-o",
                 "src/trifazic_simulator.exe"

@@ -1,5 +1,4 @@
-#include "TriFazicSource.h"
-
+#include "../include/TriFazicSource.h"
 TriFazicSource::TriFazicSource(float V_line, float freq){
     V_rms = V_line/std::sqrt(3.0f);
     V_peak = V_rms*std::sqrt(2.0f);

@@ -1,5 +1,5 @@
 % Încarcă datele din fișierul CSV
-data = readtable('D:\Projects\C_CODE_F.O.C_And_Machine\plots\trifazic_output.csv');
+data = readtable('D:\Projects\C_CODE_F.O.C_And_Machine\plots\signals.csv');
 
 % Extrage coloanele
 t = data.t;
@@ -17,4 +17,3 @@ ylabel('Tensiune [V]');
 title('Semnale trifazice 400V 50Hz');
 legend show;
 grid on;
-%
