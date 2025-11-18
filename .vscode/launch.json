@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run trifazic",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/trifazic_simulator.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/src",
+            "environment": [],
+            "console": "integratedTerminal",
+            "preLaunchTask": "build trifazic"
+        }
+    ]
+}

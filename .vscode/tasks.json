@@ -1,0 +1,23 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build trifazic",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "src/main.cpp",
+                "src/TriFazicSource.cpp",
+                "-Iinclude",
+                "-o",
+                "src/trifazic_simulator.exe"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"],
+            "detail": "Compile all sources for trifazic simulator"
+        }
+    ]
+}
